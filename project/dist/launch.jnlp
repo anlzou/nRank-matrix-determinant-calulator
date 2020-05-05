@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>n阶矩阵行列式计算器</title>
+        <vendor>anlzou</vendor>
+        <homepage href=""/>
+        <description>version：1.0</description>
+        <description kind="short">n阶矩阵行列式计算器</description>
+    <icon href="微信图片_20181101230449.png" kind="splash"/>
+<icon href="微信图片_20181101230424.png" kind="default"/>
+<offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="n_________.jar" main="true"/>
+    <jar href="lib/beansbinding-1.2.1.jar"/>
+</resources>
+    <applet-desc height="300" main-class="" name="n阶矩阵行列式计算器" width="300">
+    </applet-desc>
+</jnlp>
